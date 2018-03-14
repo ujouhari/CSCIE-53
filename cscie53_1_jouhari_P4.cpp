@@ -1,4 +1,13 @@
-﻿/*
+﻿/*Assignment Feedback:
+Problem 4: Again, ‘len’ is the same as ‘j’ - no need to recompute. 
+Also again please consider breaking out the various component of this 
+problem into separate functions. Also consider that if you did have
+ different functions, then you could re-use them for your part 1 and part 2. 
+Excellent input validation. Generate_Computer_Moves does the right thing, 
+but it’s more verbose than it needs to be.
+*/
+
+/*
 Name: Urvashi Jouhari
 Assignment Name: CSCIE‐53 Problem Set 1 
 File Name: Problem_Set1_P4.cpp

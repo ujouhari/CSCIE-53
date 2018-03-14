@@ -1,4 +1,21 @@
-﻿/*
+﻿/*Assignment Feedback:
+In general, I’d like to see individual problems in their own source file, 
+unless they are in some way related or dependent. 
+Problem 1: Well done. 
+Problem 2: Consider putting your character-stripping phase in a separate function. 
+Optimization: No need to call strlen on the processed string, 
+since you already know its size. Otherwise, well done. 
+Problem 3: Break up into smaller functions.
+Comments that state the purpose of a given loop would be helpful. 
+Optimziation If insert_loc==my_numbers, no need to keep looping 
+in your first loop. In fact, that loops seems to do nothing at all. 
+Also, the loop that computes the shift is not necessary; 
+just do pointer arithmetic as in “shift = pend_loc-insert_loc”. 
+Problem 4: Might be nice if, after replacing substring, 
+if it’s shorter than what it is replacing, 
+it shifted the rest of the characters down.*/
+
+/*
 Name: Urvashi Jouhari
 Assignment Name: CSCIE‐53 Problem Set 2 
 File Name: Problem_Set2.cpp

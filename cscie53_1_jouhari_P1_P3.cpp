@@ -1,4 +1,16 @@
-﻿/*
+﻿/*Assignment Feedback:
+Good organization. Good use of constants (P1_SIZE). 
+No points yet deducted for optimization issues, but we will be in later assignments:
+ Your loop would be more optimal if you searched up to num/2, instead of num 
+ (since nothing after num/2 will divide evenly into num). 
+ And while it’s true there will never be more than P1_SIZE divisors the way 
+ the problem is setup, it would be a good habit to get into to validate that 
+ ‘index’ never exceeds P1_SIZE (pretend this is a real-world problem). 
+ Problem 2: Why compute len_strip? It is guaranteed to be the same as ‘j’. 
+ Consider breaking out the ‘sanitize’ portion of the input processing into 
+ a separate function. */ 
+
+/*
 Name: Urvashi Jouhari
 Assignment Name: CSCIE‐53 Problem Set 1 
 File Name: Problem_Set1.cpp
